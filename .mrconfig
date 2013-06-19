@@ -4,3 +4,12 @@ jobs = 5
 include = cat /usr/share/mr/vcsh
 
 include = cat ~/.config/mr/config.d/*
+
+[personal/cv]
+checkout = git clone '/media/nas/personal/cv/' 'cv'
+
+[personal/ledger]
+checkout = git clone '/media/nas/personal/ledger' 'ledger'
+
+[personal/blog]
+checkout = git clone 'git@github.com:wagdav/thewagner.net.git' 'blog'
